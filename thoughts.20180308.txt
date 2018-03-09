@@ -1,0 +1,22 @@
+I would like to create an Angular spa which will serve as the front end for gekko.
+
+Who would I target?
+
+How can I make it feel safe to use?
+
+How will I profit?
+
+I will make it a beatiful, intituive, and powerful UX.
+
+It will walk the user through the process of creating a wallet and the initial purchase of cryptocurrency.
+
+It will walk the user through extracting the required configuration.
+
+It will provide for free a single local execution with no remote access.  Limitations:
+    1. !Docker
+    2. !Remote access to UI
+        a. It would be possible to subvert and access the container remotely but not acomplished easily
+            i. By default only allow access from local IP.  -Not possible
+
+Dont make this free, make it a SasS or SaaP type account with a limite free tier.  Make no source
+available.  Customi

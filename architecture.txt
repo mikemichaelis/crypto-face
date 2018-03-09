@@ -1,0 +1,54 @@
+Docker container running a UI which has connection with all traiding containers in the swarm.
+
+This single contaner will process live data exposed on a port by the traiding containers
+
+websocket will be used to stream data from tC to uiC.
+
+an story will be added to the existing traiding souce which will collect a well defined set of general data
+as well as data specific to different traiding algorithms.
+
+it would be interesting to possibly alter the running configuration of the traiding algorithm in real time
+I belive it would have to be a story which isolates vairables holding execution time configuration,
+or possibly rexecute a method used to generate data from a variable so modifications to the configuration
+may be possible at real time.
+
+essential remote control operations on each tC including:
+1. start traiding engine
+    a. receive streaming data
+2. open traiding wallet
+    a. authentication with wallet
+3. load strategy
+4. load configuration
+6. execute strategy -> monetize
+7. terminate strategy
+8. save/edit/duplicate/view statistics and results of strategy & configuration
+9. close wallet (at any time to stop all traiding)
+10. stop engine
+11. backup engine
+
+uiC will provide group functions for the above operations.  ie start [all] traiding engine will start the
+traiding engine for every traiding engine in the swarm.  load [all] strategy MACD.  load [1] configuration [1]
+
+the containers will be run
+
+i need to start putting together these existing pieces of software and services scripting
+their administration and provie to the customer some value.
+
+Docker/Github/DockerCloud/Angular/Typescript/Node/AWS/Azure
+
+user points their browser to https://crypto-face.com/user123 and logs in
+user has configurable level of notifications sent to them via multiple platforms
+    * SMS, IM, email, etc.
+user has a beautiful dashboard with lots of bells and whistles, gadgets to play and interact with
+but most importantly entertain the user, let them feel like they are engaging with technology and
+making money using technology.  the dream job for a large portion of low income americans.  get them 
+into low cost crypto so they have a lot to play with.  give them help to explain what an indicator is,
+a strategy, a candlestick, a trade, a market, and a quote.  everything they can very easily learn and
+feel smart about.  then give them good strategies that we can remote configure and update (which they
+allow in the tos) we reveive trading data from their trades, essentially we can run a single UI with
+access to every uiC.  
+
+we charge the computing cost and $9.95 auto billed monthly.  we advertise, hold conventions, talks,
+
+we provide something the customer will enjoy doing - who dosen't enjoy the excitement of looking
+at your device to see how much money you have made? 
